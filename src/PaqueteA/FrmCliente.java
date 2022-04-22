@@ -45,7 +45,7 @@ public class FrmCliente extends javax.swing.JInternalFrame {
         
         fila[0]="1";
         fila[1]="Christopher Olivares";
-        fila[2]=15;
+        fila[2]=25;
         
         modelo.addRow(fila);
         
