@@ -127,6 +127,11 @@ public class FrmCliente extends javax.swing.JInternalFrame {
         jLabel3.setText("Edad");
 
         btnAdd.setText("Agregar");
+        btnAdd.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAddActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -180,6 +185,13 @@ public class FrmCliente extends javax.swing.JInternalFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
+        // TODO add your handling code here:
+        CargarDatos();
+        
+        Limpiar();
+    }//GEN-LAST:event_btnAddActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
